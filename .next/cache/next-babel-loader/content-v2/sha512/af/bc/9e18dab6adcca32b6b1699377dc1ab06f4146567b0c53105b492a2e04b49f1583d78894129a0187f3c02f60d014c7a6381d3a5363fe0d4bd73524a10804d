@@ -1,1 +1,0 @@
-{"ast":null,"code":"import Raca from './Raca';\nexport default Raca;","map":{"version":3,"sources":["/Users/adriano/Estudos/Bootcamp React/Modulo03/infocao/src/components/Raca/index.jsx"],"names":["Raca"],"mappings":"AAAA,OAAOA,IAAP,MAAiB,QAAjB;AACA,eAAeA,IAAf","sourcesContent":["import Raca from './Raca'\nexport default Raca"]},"metadata":{},"sourceType":"module"}
