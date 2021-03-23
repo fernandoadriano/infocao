@@ -11,10 +11,10 @@ const ListaRacaWrapper = styled.ul`
 `;
 
 const RacaItem = styled.li`
-    background-color: ${({ theme }) => theme.rosa};
-    border: 2px solid ${({ theme }) => theme.rosaClaro};
+    background-color: ${({ theme }) => theme.colors.rosa};
+    border: 2px solid ${({ theme }) => theme.colors.rosaClaro};
     border-radius: 5px;
-    color: ${({ theme }) => theme.branco};
+    color: ${({ theme }) => theme.colors.branco};
     cursor: pointer;
     flex-grow: 1;
     margin: 10px;
@@ -22,8 +22,8 @@ const RacaItem = styled.li`
     text-align: center;
 
     &:hover {
-      background-color: ${({ theme }) => theme.rosaClaro};
-      color: ${({ theme }) => theme.rosa};
+      background-color: ${({ theme }) => theme.colors.rosaClaro};
+      color: ${({ theme }) => theme.colors.rosa};
     }
 `;
 
